@@ -15,4 +15,4 @@ RUN set -xe \
 VOLUME /etc/tinyproxy
 EXPOSE 8888
 
-CMD ["tinyproxy", "-d"]
+CMD ["/usr/bin/tinyproxy", "-d"]
